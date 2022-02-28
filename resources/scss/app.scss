@@ -89,6 +89,13 @@ section.status{
     min-height: calc(100vh - 86px);
 }
 
+footer a{
+    transition: $smooth;
+    &:hover{
+        color: $primary;
+    }
+}
+
 .status-box {
     padding: 60px 0 0;
 }
@@ -191,4 +198,21 @@ section.status{
     float: right;
     font-size: 14px;
     margin-top: 8px;
+}
+
+@media(max-width:1060px){
+    .container{
+        max-width: 90%;
+    }
+    table{
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 768px){
+    .status-box ul li span:before{
+        font-size: 34px;
+    }
 }
