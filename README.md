@@ -10,7 +10,7 @@ I have used tailwind css for frontend as a css framework, EJS template engine, s
 Using This app we will be able to order a pizza and get realtime notifications about pizza status. 
 
 ## Deployment
-Deployed Website- https://guarded-cliffs-74010.herokuapp.com/
+Deployed Website- https://realtimepizzawebapp.herokuapp.com/
 
 ## Deployed using
 * Heroku
